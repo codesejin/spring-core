@@ -1,17 +1,20 @@
 package hello.core;
 
 import hello.core.member.*;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class MemberApp {
     // psvm
     public static void main(String[] args) {
-        // 기존에는 MemberServiceImpl을 직접 메인 메소드에서 생성해줌
-        // 그 다음 MemberServiceImpl내에서는 또 MemoryMemberReposity를 생성해줌
-        // 순차적으로 생성되듯이.
-        // 이제는 AppConfig에서 결정한다.
-        AppConfig appConfig = new AppConfig();
-        MemberService memberService = appConfig.memberService();
-//        MemberService memberService = new MemberServiceImpl(memberRepository);
+//        AppConfig appConfig = new AppConfig();
+//        MemberService memberService = appConfig.memberService();
+
+        // 스프링 컨테이너
+        ApplicationContext applicationContext = new AnnotationConfigApplicationContext(AppConfig.class);
+        MemberService memberService = applicationContext.getBean("memberService", MemberService.class);// 매개변수 : 메서드, 반환타입
+
+
         Member member = new Member(1L, "memberA", Grade.VIP);
         memberService.join(member);
 
