@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration // @Configuration : 애플리케이션의 구성과 설정 정보
-public class AppConfig {
+public class AppConfig { // ->  팩토리 메소드로 스프링 빈(팩토리 빈?)을 등록하는 방식
 
     @Bean // 스프링 컨테이너에 등록 : Bean이 메서드 이름으로 등록됨
     public MemberService memberService() {
