@@ -28,4 +28,9 @@ public class OrderServiceImpl implements OrderService {
          * 할인쪽 변경이 생기면 할인만 고치면 되고, 주문쪽은 건드리지 않아도 된다
          */
     }
+
+    // 테스트 용도
+    public MemberRepository getMemberRepository(){
+        return memberRepository;
+    }
 }
