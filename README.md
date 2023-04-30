@@ -11,4 +11,4 @@
 
 ### [스프링 컨테이너와 스프링 빈](https://github.com/codesejin/spring-core/blob/12a24e8da4ffce4aab8557504bfd4f44a0ae85d3/Downloads/study/core/summary/C4_%EC%8A%A4%ED%94%84%EB%A7%81%20%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%EC%99%80%20%EC%8A%A4%ED%94%84%EB%A7%81%20%EB%B9%88.md)
 
-### [싱글톤 컨테이너](https://github.com/codesejin/spring-core/blob/f135af4cd437086df572077fd76e9d9f5dc00a41/Downloads/study/core/summary/C5_%EC%8B%B1%EA%B8%80%ED%86%A4%20%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88.md)
+### [싱글톤 컨테이너](https://github.com/codesejin/spring-core/blob/a8129ff9fb76db0cf0d5bfddefd41e3b075b1e29/Downloads/study/core/summary/C5_%EC%8B%B1%EA%B8%80%ED%86%A4%20%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88.md)
