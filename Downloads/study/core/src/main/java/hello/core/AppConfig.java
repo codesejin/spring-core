@@ -38,8 +38,8 @@ public class AppConfig { // ->  팩토리 메소드로 스프링 빈(팩토리 �
     @Bean
     public OrderService orderService() {
         System.out.println("call AppConfig.orderService");
-       // return new OrderServiceImpl(memberRepository(), discountPolicy());
-        return null;
+        return new OrderServiceImpl(memberRepository(), discountPolicy());
+       // return null;
     }
 
     @Bean
