@@ -14,3 +14,5 @@
 ### [싱글톤 컨테이너](https://github.com/codesejin/spring-core/blob/a8129ff9fb76db0cf0d5bfddefd41e3b075b1e29/Downloads/study/core/summary/C5_%EC%8B%B1%EA%B8%80%ED%86%A4%20%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88.md)
 
 ### [컴포넌트 스캔](https://github.com/codesejin/spring-core/blob/6a9904fa39b9729ce3d1ce3f440a80151b326a54/Downloads/study/core/summary/C6_%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%20%EC%8A%A4%EC%BA%94.md)
+
+### [의존관계 자동 주입](https://github.com/codesejin/spring-core/blob/96216b57eb76671e7b89799f0cea53c6d6153f64/Downloads/study/core/summary/C7_%EC%9D%98%EC%A1%B4%EA%B4%80%EA%B3%84%20%EC%9E%90%EB%8F%99%20%EC%A3%BC%EC%9E%85.md)
