@@ -8,14 +8,14 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class OrderServiceImpl implements OrderService {
     // final을 사용하면 초기화 단계에서 무조건 값이 할당되어야 한다.(기본으로 하던, 생성자로 하던)
     // 생성자 만들때 누락되어도 컴파일 오류로 알 수 있다
     private final MemberRepository memberRepository;
     private final DiscountPolicy discountPolicy;
 
-    public OrderServiceImpl(MemberRepository memberRepository, @MainDiscountPolicy DiscountPolicy discountPolicy) {
+    public OrderServiceImpl(MemberRepository memberRepository, DiscountPolicy discountPolicy) {
         this.memberRepository = memberRepository;
         this.discountPolicy = discountPolicy;
     }
