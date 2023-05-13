@@ -22,7 +22,7 @@ public class BeanLifeCycleTest {
     @Configuration
     static class LifeCycleConfig{
 
-        @Bean(initMethod = "init", destroyMethod = "close")
+        @Bean
         public NetworkClient networkClient() {
             // 객체를 생성한 다음에 설정이 들어올 수 있다
             // 자동 의존관계 주입에서도 보면 세터,필드로 인젝션할 수 있는데
