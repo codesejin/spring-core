@@ -17,4 +17,4 @@
 
 ### [의존관계 자동 주입](https://github.com/codesejin/spring-core/blob/96216b57eb76671e7b89799f0cea53c6d6153f64/Downloads/study/core/summary/C7_%EC%9D%98%EC%A1%B4%EA%B4%80%EA%B3%84%20%EC%9E%90%EB%8F%99%20%EC%A3%BC%EC%9E%85.md)
 
-### [빈 생명주기 콜백](https://github.com/codesejin/spring-core/blob/44116df02333ff3f45343284979ccea3cd74e18b/Downloads/study/core/summary/C8_%EB%B9%88%20%EC%83%9D%EB%AA%85%EC%A3%BC%EA%B8%B0%20%EC%BD%9C%EB%B0%B1.md)
+### [빈 생명주기 콜백](https://github.com/codesejin/spring-core/blob/2d91929a9e3321da12b13bcf0923b1d253bdf6f4/Downloads/study/core/summary/C8_%EB%B9%88%20%EC%83%9D%EB%AA%85%EC%A3%BC%EA%B8%B0%20%EC%BD%9C%EB%B0%B1.md)
