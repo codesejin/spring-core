@@ -19,4 +19,4 @@
 
 ### [빈 생명주기 콜백](https://github.com/codesejin/spring-core/blob/281774086c185d2215768462bc2d8b1e44b661a8/Downloads/study/core/summary/C8_%EB%B9%88%20%EC%83%9D%EB%AA%85%EC%A3%BC%EA%B8%B0%20%EC%BD%9C%EB%B0%B1.md)
 
-### [빈 스코프](https://github.com/codesejin/spring-core/blob/b8e95194beec44c9e277a3900077b8e7168ff8aa/Downloads/study/core/summary/C9_%EB%B9%88%20%EC%8A%A4%EC%BD%94%ED%94%84.md)
+### [빈 스코프](https://github.com/codesejin/spring-core/blob/9c17d56f9679b1ee6b84e2eef89a19ecc38fe3ad/Downloads/study/core/summary/C9_%EB%B9%88%20%EC%8A%A4%EC%BD%94%ED%94%84.md)
