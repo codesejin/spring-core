@@ -13,13 +13,12 @@ import javax.servlet.http.HttpServletRequest;
 @RequiredArgsConstructor
 public class LogDemoController { // 로거가 잘 작동하는지 확인하는 테스트용 컨트롤러
     private final LogDemoService logDemoService;
-    private final ObjectProvider<MyLogger> myLoggerProvider; // MyLogger을 주입받는게 아니라 찾을 수 있음 - Dependency lookup
+    private final MyLogger myLogger; // MyLogger을 주입받는게 아니라 찾을 수 있음 - Dependency lookup
 
     @RequestMapping("log-demo")
     @ResponseBody
     public String logDemo(HttpServletRequest request) throws InterruptedException {
         String requestURL = request.getRequestURL().toString();
-        MyLogger myLogger = myLoggerProvider.getObject();
         myLogger.setRequestURL(requestURL);
 
         myLogger.log("controller test");
